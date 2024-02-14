@@ -1,16 +1,15 @@
-<h1>JWipe - Disk Sanitization</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1>Simple DevOps Deployment Project/h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Simple Amazon Web services DevOps Deployment project, where inside a EC2 instance I setup a NGINX configuration to load balance traffic to a website.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>React</b> 
+- <b>Node.js</b>
+
 
 <h2>Environments Used </h2>
 
@@ -19,40 +18,25 @@ Project consists of a simple PowerShell script that walks the user through "zero
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Seup NGINX on the AWS EC2 instance: <br/>
+<img src="https://imgur.com/a/1Se1SpE" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Used SCP commands to transfer the application to the EC2 Instance:  <br/>
+<img src="https://imgur.com/STayzeO" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+NGINX Configuration: <br/>
+<img src="https://imgur.com/LHeowoe" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+NGINX still running succesfully:  <br/>
+<img src="https://imgur.com/mgAffes" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Routing and load balancing traffic:  <br/>
+<img src="https://imgur.com/7yigqel" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+
