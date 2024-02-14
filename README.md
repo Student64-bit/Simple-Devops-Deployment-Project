@@ -1,4 +1,4 @@
-<h1>Simple DevOps Deployment Project/h1>
+<h1>Simple DevOps Deployment Project</h1>
 
 <h2>Description</h2>
 Simple Amazon Web services DevOps Deployment project, where inside a EC2 instance I setup a NGINX configuration to load balance traffic to a website.
